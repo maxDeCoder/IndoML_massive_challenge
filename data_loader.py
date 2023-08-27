@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import os
 from tqdm import tqdm
-from collection import defaultdict
+from collections import defaultdict
 
 def load_dataset_texts(root_dir = "./MASSIVE/", test_set=False):
     def load_jsonl(filepath):
